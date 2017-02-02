@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fi" datatype="plaintext" original="messages" date="2017-02-02T13:06:11Z">
+		<header>
+			<description>Static Info Tables Language Pack</description>
+			<type>database</type>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="static_countries_item.cn_official_name_no" approved="yes">
+			<source>Official name (NO):</source>
+			<target>Virallinen nimi (NO):</target>
+		</trans-unit>
+		<trans-unit id="static_countries_item.cn_short_no" approved="yes">
+			<source>Short name (NO):</source>
+			<target>Lyhyt nimi (NO):</target>
+		</trans-unit>
+		<trans-unit id="static_currencies_item.cu_name_no" approved="yes">
+			<source>Name (NO):</source>
+			<target>Nimi (NO):</target>
+		</trans-unit>
+		<trans-unit id="static_currencies_item.cu_sub_name_no" approved="yes">
+			<source>Sub name (NO):</source>
+			<target>Alanimi (NO):</target>
+		</trans-unit>
+		<trans-unit id="static_languages_item.lg_name_no" approved="yes">
+			<source>Name (NO):</source>
+			<target>Nimi (NO):</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>
