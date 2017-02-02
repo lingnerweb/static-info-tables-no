@@ -1,26 +1,23 @@
 <?php
 
-$EM_CONF[$_EXTKEY] = array(
-	'title' => 'Static Info Tables (no)',
-	'description' => 'Norwegian language pack for Static Info Tables.',
-	'category' => 'misc',
-	'version' => '0.0.2',
-	'dependencies' => '',
-	'conflicts' => '',
-	'priority' => '',
-	'loadOrder' => '',
-	'TYPO3_version' => '',
-	'PHP_version' => '',
-	'module' => '',
-	'state' => 'alpha',
-	'uploadfolder' => 0,
-	'createDirs' => '',
-	'modify_tables' => '',
-	'clearcacheonload' => 0,
-	'lockType' => '',
-	'author' => 'Mathas Bolt Lesniak, LiliO Design',
-	'author_email' => 'mathias@lilio.com',
-	'author_company' => '',
-	'CGLcompliance' => '',
-	'CGLcompliance_note' => '',
-);
+$EM_CONF[$_EXTKEY] = [
+    'title' => 'Static Info Tables (no)',
+    'description' => 'Norwegian language pack for Static Info Tables.',
+    'category' => 'misc',
+    'version' => '6.4.0',
+    'state' => 'stable',
+    'uploadfolder' => false,
+    'createDirs' => '',
+    'clearcacheonload' => false,
+    'author' => 'Markus Klein',
+    'author_email' => 'markus.klein@typo3.org',
+    'author_company' => 'Reelworx GmbH',
+    'constraints' => [
+        'depends' => [
+            'typo3' => '7.6.0-7.99.99',
+            'static_info_tables' => '6.4.0-6.4.99',
+        ],
+        'conflicts' => [],
+        'suggests' => [],
+    ],
+];

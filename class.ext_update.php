@@ -24,7 +24,10 @@ namespace SJBR\StaticInfoTablesNo;
  *  This copyright notice MUST APPEAR in all copies of the script!
  */
 
+use SJBR\StaticInfoTables\Cache\ClassCacheManager;
+use SJBR\StaticInfoTables\Utility\DatabaseUpdateUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Object\ObjectManager;
 use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 
 /**
@@ -40,17 +43,17 @@ class ext_update
     public function main()
     {
         $content = '';
-        $objectManager = GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Object\\ObjectManager');
+        $objectManager = GeneralUtility::makeInstance(ObjectManager::class);
 
         // Clear the class cache
-        $classCacheManager = $objectManager->get('SJBR\\StaticInfoTables\\Cache\\ClassCacheManager');
+        $classCacheManager = $objectManager->get(ClassCacheManager::class);
         $classCacheManager->reBuild();
 
         // Update the database
-        $databaseUpdateUtility = $objectManager->get('SJBR\\StaticInfoTables\\Utility\\DatabaseUpdateUtility');
-        $databaseUpdateUtility->doUpdate('static_info_tables_de');
+        $databaseUpdateUtility = $objectManager->get(DatabaseUpdateUtility::class);
+        $databaseUpdateUtility->doUpdate('static_info_tables_no');
 
-        $content.= '<p>' . LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables') . ' static_info_tables_de.</p>';
+        $content.= '<p>' . LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables') . ' static_info_tables_no.</p>';
         return $content;
     }
 

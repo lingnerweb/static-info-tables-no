@@ -16,7 +16,6 @@
 		<label index="static_languages_item.lg_name_no">Name (NO):</label>
 		<label index="static_currencies_item.cu_name_no">Name (NO):</label>
 		<label index="static_currencies_item.cu_sub_name_no">Sub name (NO):</label>
-		<label index="static_taxes_item.tx_name_no">Tax name (NO):</label>
 	</languageKey>
 	<languageKey index="dk" type="array">
 	</languageKey>
@@ -26,7 +25,6 @@
 		<label index="static_languages_item.lg_name_no">Name (NO):</label>
 		<label index="static_currencies_item.cu_name_no">Name (NO):</label>
 		<label index="static_currencies_item.cu_sub_name_no">Sub-Name (NO):</label>
-		<label index="static_taxes_item.tx_name_no">Steuername (NO):</label>
 	</languageKey>
 	<languageKey index="no" type="array">
 		<label index="static_territories_item.tr_name_no">Navn (NO):</label>
@@ -36,7 +34,6 @@
 		<label index="static_languages_item.lg_name_no">Navn (NO):</label>
 		<label index="static_currencies_item.cu_name_no">Navn (NO):</label>
 		<label index="static_currencies_item.cu_sub_name_no">Navn på underområde (NO):</label>
-		<label index="static_taxes_item.tx_name_no">Tax name (NO):</label>
 	</languageKey>
 	<languageKey index="it" type="array">
 		<label index="static_countries_item.cn_official_name_no">Nome ufficiale (NO):</label>
@@ -53,7 +50,6 @@
 		<label index="static_languages_item.lg_name_no">Nom (NO):</label>
 		<label index="static_currencies_item.cu_name_no">Nom (NO):</label>
 		<label index="static_currencies_item.cu_sub_name_no">Nom de subdivision (NO):</label>
-		<label index="static_taxes_item.tx_name_no">Dénomination de la taxe (NO):</label>
 	</languageKey>
 	<languageKey index="es" type="array">
 		<label index="static_countries_item.cn_official_name_no">Nombre oficial (NO):</label>
@@ -61,7 +57,6 @@
 		<label index="static_languages_item.lg_name_no">Nombre de idioma (NO):</label>
 		<label index="static_currencies_item.cu_name_no">Nombre (NO):</label>
 		<label index="static_currencies_item.cu_sub_name_no">Nombre de subdivisión (NO):</label>
-		<label index="static_taxes_item.tx_name_no">Denominación del impuesto (NO):</label>
 	</languageKey>
 	<languageKey index="nl" type="array">
 	</languageKey>
