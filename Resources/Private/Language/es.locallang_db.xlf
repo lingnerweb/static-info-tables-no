@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" target-language="es" datatype="plaintext" original="messages" date="2017-02-02T13:06:11Z">
-		<header>
-			<description>Static Info Tables Language Pack</description>
-			<type>database</type>
-			<generator>LFEditor</generator>
-		</header>
+	<file source-language="en" target-language="es" datatype="plaintext" original="messages" date="2014-01-26T15:19:07Z" product-name="static_info_tables_no">
+		<header/>
 		<body>
-		<trans-unit id="static_countries_item.cn_official_name_no" approved="yes">
-			<source>Official name (NO):</source>
-			<target>Nombre oficial (NO):</target>
-		</trans-unit>
-		<trans-unit id="static_countries_item.cn_short_no" approved="yes">
-			<source>Short name (NO):</source>
-			<target>Nombre corto (NO):</target>
-		</trans-unit>
-		<trans-unit id="static_currencies_item.cu_name_no" approved="yes">
-			<source>Name (NO):</source>
-			<target>Nombre (NO):</target>
-		</trans-unit>
-		<trans-unit id="static_currencies_item.cu_sub_name_no" approved="yes">
-			<source>Sub name (NO):</source>
-			<target>Nombre de subdivisión (NO):</target>
-		</trans-unit>
-		<trans-unit id="static_languages_item.lg_name_no" approved="yes">
-			<source>Name (NO):</source>
-			<target>Nombre de idioma (NO):</target>
-		</trans-unit>
+			<trans-unit id="static_countries_item.cn_official_name_no" xml:space="preserve" approved="yes">
+				<source>Official name (NO):</source>
+				<target>Nombre oficial (NO):</target>
+			</trans-unit>
+			<trans-unit id="static_countries_item.cn_short_no" xml:space="preserve" approved="yes">
+				<source>Short name (NO):</source>
+				<target>Nombre corto (NO):</target>
+			</trans-unit>
+			<trans-unit id="static_country_zones_item.zn_name_no" xml:space="preserve" approved="yes">
+				<source>Name (NO):</source>
+				<target>Nombre (NO):</target>
+			</trans-unit>
+			<trans-unit id="static_currencies_item.cu_name_no" xml:space="preserve" approved="yes">
+				<source>Name (NO):</source>
+				<target>Nombre (NO):</target>
+			</trans-unit>
+			<trans-unit id="static_currencies_item.cu_sub_name_no" xml:space="preserve" approved="yes">
+				<source>Sub name (NO):</source>
+				<target>Nombre no subdivisión (NO):</target>
+			</trans-unit>
+			<trans-unit id="static_languages_item.lg_name_no" xml:space="preserve" approved="yes">
+				<source>Name (NO):</source>
+				<target>Nombre no idioma (NO):</target>
+			</trans-unit>
+			<trans-unit id="static_territories_item.tr_name_no" xml:space="preserve" approved="yes">
+				<source>Name (NO):</source>
+				<target>Nombre (NO):</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
