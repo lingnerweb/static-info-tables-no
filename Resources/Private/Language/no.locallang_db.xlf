@@ -5,7 +5,7 @@
 		<body>
 			<trans-unit id="static_countries_item.cn_official_name_no" approved="yes">
 				<source>Official name (NO):</source>
-				<target>Offesielt navn (NO):</target>
+				<target>Offisielt navn (NO):</target>
 			</trans-unit>
 			<trans-unit id="static_countries_item.cn_short_no" approved="yes">
 				<source>Short name (NO):</source>
@@ -21,7 +21,7 @@
 			</trans-unit>
 			<trans-unit id="static_currencies_item.cu_sub_name_no" approved="yes">
 				<source>Sub name (NO):</source>
-				<target>Navn på unnorområno (NO):</target>
+				<target>Navn på underområde (NO):</target>
 			</trans-unit>
 			<trans-unit id="static_languages_item.lg_name_no" approved="yes">
 				<source>Name (NO):</source>
