@@ -26,6 +26,7 @@ UPDATE static_territories SET tr_name_no='Melanesia' WHERE tr_iso_nr='54';
 UPDATE static_territories SET tr_name_no='Mikronesia' WHERE tr_iso_nr='57';
 UPDATE static_territories SET tr_name_no='Polynesia' WHERE tr_iso_nr='61';
 UPDATE static_territories SET tr_name_no='0' WHERE tr_iso_nr='34';
+UPDATE static_territories SET tr_name_no='Latin-Amerika og Karibia' WHERE tr_iso_nr='419';
 
 ## static_countries
 UPDATE static_countries SET cn_short_no='Andorra' WHERE cn_iso_2='AD';
@@ -274,7 +275,14 @@ UPDATE static_countries SET cn_short_no='Mayotte' WHERE cn_iso_2='YT';
 UPDATE static_countries SET cn_short_no='Sør-Afrika' WHERE cn_iso_2='ZA';
 UPDATE static_countries SET cn_short_no='Zambia' WHERE cn_iso_2='ZM';
 UPDATE static_countries SET cn_short_no='Zimbabwe' WHERE cn_iso_2='ZW';
-
+UPDATE static_countries SET cn_short_no='Montenegro' WHERE cn_iso_2='ME';
+UPDATE static_countries SET cn_short_no='Serbia' WHERE cn_iso_2='RS';
+UPDATE static_countries SET cn_short_no='Saint Martin' WHERE cn_iso_2='MF';
+UPDATE static_countries SET cn_short_no='Saint Barthélemy' WHERE cn_iso_2='BL';
+UPDATE static_countries SET cn_short_no='Bonaire, Sint Eustatius og Saba' WHERE cn_iso_2='BQ';
+UPDATE static_countries SET cn_short_no='Curaçao' WHERE cn_iso_2='CW';
+UPDATE static_countries SET cn_short_no='Sint Maarten' WHERE cn_iso_2='SX';
+UPDATE static_countries SET cn_short_no='Sør-Sudan' WHERE cn_iso_2='SS';
 
 ## static_country_zones
 UPDATE static_country_zones SET zn_name_no='' WHERE zn_country_iso_2='US' AND zn_code='AL';
@@ -921,7 +929,15 @@ UPDATE static_currencies SET cu_name_no='Samoisk tala',cu_sub_name_no='' WHERE c
 UPDATE static_currencies SET cu_name_no='Afghansk afghani',cu_sub_name_no='' WHERE cu_iso_3='AFN';
 UPDATE static_currencies SET cu_name_no='Surinamisk dollar',cu_sub_name_no='' WHERE cu_iso_3='SRD';
 UPDATE static_currencies SET cu_name_no='Tyrkisk ny lire',cu_sub_name_no='' WHERE cu_iso_3='TRY';
-
+UPDATE static_currencies SET cu_name_no='Sudanesisk pund',cu_sub_name_no='' WHERE cu_iso_3='SDG';
+UPDATE static_currencies SET cu_name_no='Bolivar',cu_sub_name_no='' WHERE cu_iso_3='VEF';
+UPDATE static_currencies SET cu_name_no='Sambisk kwacha',cu_sub_name_no='' WHERE cu_iso_3='ZMW';
+UPDATE static_currencies SET cu_name_no='Serbisk dinar',cu_sub_name_no='' WHERE cu_iso_3='RSD';
+UPDATE static_currencies SET cu_name_no='Sør-sudanesisk pund',cu_sub_name_no='' WHERE cu_iso_3='SSP';
+UPDATE static_currencies SET cu_name_no='Ghanesisk cedi',cu_sub_name_no='' WHERE cu_iso_3='GHS';
+UPDATE static_currencies SET cu_name_no='Mosambiksk metical',cu_sub_name_no='' WHERE cu_iso_3='MZN';
+UPDATE static_currencies SET cu_name_no='Rumensk ny leu',cu_sub_name_no='' WHERE cu_iso_3='RON';
+UPDATE static_currencies SET cu_name_no='Turkmenistansk manat',cu_sub_name_no='' WHERE cu_iso_3='TMT';
 
 ## static_languages
 UPDATE static_languages SET lg_name_no='Afar' WHERE lg_iso_2='AA' AND LG_COUNTRY_ISO_2='';
@@ -1113,3 +1129,10 @@ UPDATE static_languages SET lg_name_no='Zulu' WHERE lg_iso_2='ZU' AND LG_COUNTRY
 UPDATE static_languages SET lg_name_no='Kinesisk' WHERE lg_iso_2='ZH' AND LG_COUNTRY_ISO_2='HK';
 UPDATE static_languages SET lg_name_no='Kinesisk' WHERE lg_iso_2='ZH' AND LG_COUNTRY_ISO_2='CN';
 UPDATE static_languages SET lg_name_no='Brasiliansk' WHERE lg_iso_2='PT' AND LG_COUNTRY_ISO_2='BR';
+UPDATE static_languages SET lg_name_no='Kanadisk fransk' WHERE lg_iso_2='FR' AND LG_COUNTRY_ISO_2='CA';
+UPDATE static_languages SET lg_name_no='Filippinsk' WHERE lg_iso_2='TL' AND LG_COUNTRY_ISO_2='PH';
+UPDATE static_languages SET lg_name_no='Montenegrinsk' WHERE lg_iso_2='SR' AND LG_COUNTRY_ISO_2='ME';
+UPDATE static_languages SET lg_name_no='Tysk (Sveits)' WHERE lg_iso_2='DE' AND LG_COUNTRY_ISO_2='CH';
+UPDATE static_languages SET lg_name_no='Tysk (Østerrike)' WHERE lg_iso_2='DE' AND LG_COUNTRY_ISO_2='AT';
+UPDATE static_languages SET lg_name_no='Engelsk (USA)' WHERE lg_iso_2='EN' AND LG_COUNTRY_ISO_2='US';
+UPDATE static_languages SET lg_name_no='Engelsk (Storbritannia)' WHERE lg_iso_2='EN' AND LG_COUNTRY_ISO_2='GB';
