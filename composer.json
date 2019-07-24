@@ -16,7 +16,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"SJBR\\StaticInfoTables\\": "Classes/"
+			"Pix\\StaticInfoTablesNo\\": "Classes/"
 		}
 	},
 	"extra": {
