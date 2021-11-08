@@ -1,5 +1,5 @@
 {
-	"name": "pixelant/static-info-tables-no",
+	"name": "lingnerweb/static-info-tables-no",
 	"description": "Norwegian language pack for Static Info Tables.",
 	"type": "typo3-cms-extension",
 	"license": "GPL-2.0+",
@@ -11,8 +11,9 @@
 		"static_info_tables_no": "*"
 	},
 	"require": {
-		"typo3/cms-core": "^8.7 || ^9.5",
-		"sjbr/static-info-tables": "^6"
+		"php": ">=7.2",
+		"typo3/cms-core": "^9.5 || ^10.4",
+		"sjbr/static-info-tables": "^6.9"
 	},
 	"autoload": {
 		"psr-4": {
